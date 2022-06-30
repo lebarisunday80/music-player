@@ -1,6 +1,10 @@
 var mySong = document.getElementById("mySong");
             var icon = document.getElementById("icon");
 
+            function toggleMobileMenu(){
+                menubar.classList.toggle('open');
+            }
+
             icon.onclick = function(){
                 if (mySong.paused){
                     mySong.play();
