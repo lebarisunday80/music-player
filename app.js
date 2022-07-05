@@ -8,9 +8,18 @@ var mySong = document.getElementById("mySong");
             icon.onclick = function(){
                 if (mySong.paused){
                     mySong.play();
-                    icon.src = "images/pause.png"
+                    icon.src = "assets/pause.png"
                 }else{
                     mySong.pause();
-                    icon.src = "images/play.png";
+                    icon.src = "assets/play.png";
                 }
+
             }
+let navLinks = document.getElementById("navLinks")
+    w
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
